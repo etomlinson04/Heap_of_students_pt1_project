@@ -38,6 +38,6 @@ classDiagram
     +printStudent() void
     +getLastFirst() string
   }
-  Student *-- "1" Address : lives at
-  Student *-- "2" Date : birthdate, gradDate
+  Student *--  Address : 
+  Student *--  Date : 
 ```
